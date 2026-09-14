@@ -5,7 +5,7 @@ MATERIALS = [
     {"course": "智能化软件系统与工程", "title": "课程讲义"},
     {"course": "程序设计基础", "title": "Python练习"},
 ]
-
+# test
 def search(keyword):
     return [item for item in MATERIALS if keyword.strip() in item["course"]]
 
